@@ -1,6 +1,8 @@
-﻿namespace MedicineCabinet.Domain.Entities;
+﻿using MedicineCabinet.Domain.Shared;
 
-public class Medicine
+namespace MedicineCabinet.Domain.Entities;
+
+public class Medicine : AuditableEntity
 {
     public int MedicineId { get; set; }
     public string MedicineName { get; set; } = string.Empty;

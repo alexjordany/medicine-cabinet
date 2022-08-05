@@ -15,14 +15,38 @@
   <ItemGroup>
     <None Remove="Contracts\" />
     <None Remove="Microsoft.Extensions.DependencyInjection" />
+    <None Remove="Common\" />
+    <None Remove="Features\" />
+    <None Remove="Exceptions\" />
+    <None Remove="Profiles\" />
+    <None Remove="Responses\" />
+    <None Remove="AutoMapper" />
+    <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="FluentValidation" />
+    <None Remove="FluentValidation.DependencyInjectionExtensions" />
+    <None Remove="FluentValidation.AspNetCore" />
+    <None Remove="MediatR" />
+    <None Remove="MediatR.Extensions.Microsoft.DependencyInjection" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Contracts\" />
+    <Folder Include="Common\" />
+    <Folder Include="Features\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Profiles\" />
+    <Folder Include="Responses\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MedicineCabinet.Domain\MedicineCabinet.Domain.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="FluentValidation" Version="11.1.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.1.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.1.2" />
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
   </ItemGroup>
 </Project>
