@@ -1,11 +1,12 @@
-﻿using System;
-namespace MedicineCabinet.Application.Profiles
+﻿using MedicineCabinet.Application.Features.Medicines.Commands.CreateMedicine;
+
+namespace MedicineCabinet.Application.Profiles;
+
+public class MappingProfile : Profile
 {
-    public class MappingProfile
+    public MappingProfile()
     {
-        public MappingProfile()
-        {
-        }
+        CreateMap<Medicine, CreateMedicineDto>().ReverseMap();
     }
 }
 
