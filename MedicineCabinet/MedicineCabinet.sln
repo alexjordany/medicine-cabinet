@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{448ACF2C-59CB-4427-B3D8-FC19AB434E2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{4B09A5EB-4E9A-4253-849E-F9B480EE8C03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{E84E82C5-080E-439F-AD3A-B0EF08C4A4DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{C524BDA4-34A9-4397-88F5-2C2C0BD6824E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicineCabinet.Domain", "MedicineCabinet.Domain\MedicineCabinet.Domain.csproj", "{22938447-3F68-4A3A-A61E-3B9668A1ECC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicineCabinet.Application", "MedicineCabinet.Application\MedicineCabinet.Application.csproj", "{3640711D-9AAC-4121-A686-F6735DB87393}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicineCabinet.Persistence", "MedicineCabinet.Persistence\MedicineCabinet.Persistence.csproj", "{1126B7CB-74B6-4073-9074-1C835EE8F882}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22938447-3F68-4A3A-A61E-3B9668A1ECC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22938447-3F68-4A3A-A61E-3B9668A1ECC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22938447-3F68-4A3A-A61E-3B9668A1ECC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22938447-3F68-4A3A-A61E-3B9668A1ECC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3640711D-9AAC-4121-A686-F6735DB87393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3640711D-9AAC-4121-A686-F6735DB87393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3640711D-9AAC-4121-A686-F6735DB87393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3640711D-9AAC-4121-A686-F6735DB87393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1126B7CB-74B6-4073-9074-1C835EE8F882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1126B7CB-74B6-4073-9074-1C835EE8F882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1126B7CB-74B6-4073-9074-1C835EE8F882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1126B7CB-74B6-4073-9074-1C835EE8F882}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAA6A3AE-A540-4C32-B669-2400C38DC618}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22938447-3F68-4A3A-A61E-3B9668A1ECC9} = {4B09A5EB-4E9A-4253-849E-F9B480EE8C03}
+		{3640711D-9AAC-4121-A686-F6735DB87393} = {4B09A5EB-4E9A-4253-849E-F9B480EE8C03}
+		{1126B7CB-74B6-4073-9074-1C835EE8F882} = {C524BDA4-34A9-4397-88F5-2C2C0BD6824E}
+	EndGlobalSection
+EndGlobal
