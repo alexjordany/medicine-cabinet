@@ -13,7 +13,8 @@ public static class PersistenceServiceRegistration
     {
         services.AddDbContext<MedicineCabinetDbContext>(options =>
         {
-            options.UseSqlServer(configuration.GetConnectionString("MedicineCabinetConnectionString"));
+            //options.UseSqlServer(configuration.GetConnectionString("MedicineCabinetConnectionString"));
+            options.UseInMemoryDatabase("MedicineCabinet");
         });
 
         services.AddScoped(typeof(IAsyncRepository<>), typeof(BaseRepository<>));
