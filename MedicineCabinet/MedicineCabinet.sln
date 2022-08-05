@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicineCabinet.Application
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicineCabinet.Persistence", "MedicineCabinet.Persistence\MedicineCabinet.Persistence.csproj", "{1126B7CB-74B6-4073-9074-1C835EE8F882}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicineCabinet.API", "MedicineCabinet.API\MedicineCabinet.API.csproj", "{FA1F16D4-A8DC-4A5A-8176-DEB3291E3F3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{1126B7CB-74B6-4073-9074-1C835EE8F882}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1126B7CB-74B6-4073-9074-1C835EE8F882}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1126B7CB-74B6-4073-9074-1C835EE8F882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA1F16D4-A8DC-4A5A-8176-DEB3291E3F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA1F16D4-A8DC-4A5A-8176-DEB3291E3F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA1F16D4-A8DC-4A5A-8176-DEB3291E3F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA1F16D4-A8DC-4A5A-8176-DEB3291E3F3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +52,6 @@ Global
 		{22938447-3F68-4A3A-A61E-3B9668A1ECC9} = {4B09A5EB-4E9A-4253-849E-F9B480EE8C03}
 		{3640711D-9AAC-4121-A686-F6735DB87393} = {4B09A5EB-4E9A-4253-849E-F9B480EE8C03}
 		{1126B7CB-74B6-4073-9074-1C835EE8F882} = {C524BDA4-34A9-4397-88F5-2C2C0BD6824E}
+		{FA1F16D4-A8DC-4A5A-8176-DEB3291E3F3E} = {448ACF2C-59CB-4427-B3D8-FC19AB434E2E}
 	EndGlobalSection
 EndGlobal
