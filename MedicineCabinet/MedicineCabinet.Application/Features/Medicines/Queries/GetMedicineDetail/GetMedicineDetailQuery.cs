@@ -1,11 +1,7 @@
-﻿using System;
-namespace MedicineCabinet.Application.Features.Medicines.Queries.GetMedicinesList
+﻿namespace MedicineCabinet.Application.Features.Medicines.Queries.GetMedicineDetail;
+
+public class GetMedicineDetailQuery : IRequest<MedicineDetailVM>
 {
-    public class GetMedicineDetailQuery
-    {
-        public GetMedicineDetailQuery()
-        {
-        }
-    }
+    public int Id { get; set; }
 }
 

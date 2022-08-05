@@ -1,11 +1,4 @@
-﻿using System;
-namespace MedicineCabinet.Application.Features.Medicines.Queries.GetMedicinesList
-{
-    public class MedicineDetailVM
-    {
-        public MedicineDetailVM()
-        {
-        }
-    }
-}
+﻿namespace MedicineCabinet.Application.Features.Medicines.Queries.GetMedicineDetail;
+
+public record class MedicineDetailVM (int MedicineId, string MedicineName, int Quantity);
 

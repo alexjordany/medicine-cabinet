@@ -1,11 +1,20 @@
-﻿using System;
-namespace MedicineCabinet.Application.Features.Medicines.Queries.GetMedicinesList
+﻿namespace MedicineCabinet.Application.Features.Medicines.Queries.GetMedicineDetail;
+
+public class GetMedicineDetailQueryHandler : IRequestHandler<GetMedicineDetailQuery, MedicineDetailVM>
 {
-    public class GetMedicineDetailQueryHandler
+    private readonly IAsyncRepository<Medicine> _medicineRepository;
+    private readonly IMapper _mapper;
+
+    public GetMedicineDetailQueryHandler(IAsyncRepository<Medicine> medicineRepository, IMapper mapper)
     {
-        public GetMedicineDetailQueryHandler()
-        {
-        }
+        _medicineRepository = medicineRepository;
+        _mapper = mapper;
+    }
+
+    public async Task<MedicineDetailVM> Handle(GetMedicineDetailQuery request, CancellationToken cancellationToken)
+    {
+        var medicineDetail = await _medicineRepository.GetByIdAsync(request.Id);
+        return _mapper.Map<MedicineDetailVM>(medicineDetail);
     }
 }
 
