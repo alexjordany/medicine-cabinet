@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
+
 namespace MedicineCabinet.Persistence;
 
 public static class PersistenceServiceRegistration
@@ -16,6 +17,7 @@ public static class PersistenceServiceRegistration
         });
 
         services.AddScoped(typeof(IAsyncRepository<>), typeof(BaseRepository<>));
+        services.AddScoped<IMedicineRepository, MedicineRepository>();
 
         return services;
     }

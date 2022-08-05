@@ -27,6 +27,14 @@
     <None Remove="FluentValidation.AspNetCore" />
     <None Remove="MediatR" />
     <None Remove="MediatR.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="Features\Medicines\" />
+    <None Remove="Features\Medicines\Commands\" />
+    <None Remove="Features\Medicines\Queries\" />
+    <None Remove="Features\Medicines\Commands\CreateMedicine\" />
+    <None Remove="Features\Medicines\Commands\UpdateMedicine\" />
+    <None Remove="Features\Medicines\Queries\GetMedicinesByName\" />
+    <None Remove="Features\Medicines\Queries\GetMedicinesList\" />
+    <None Remove="Features\Medicines\Queries\GetMedicineDetail\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Contracts\" />
@@ -35,6 +43,14 @@
     <Folder Include="Exceptions\" />
     <Folder Include="Profiles\" />
     <Folder Include="Responses\" />
+    <Folder Include="Features\Medicines\" />
+    <Folder Include="Features\Medicines\Commands\" />
+    <Folder Include="Features\Medicines\Queries\" />
+    <Folder Include="Features\Medicines\Commands\CreateMedicine\" />
+    <Folder Include="Features\Medicines\Commands\UpdateMedicine\" />
+    <Folder Include="Features\Medicines\Queries\GetMedicinesByName\" />
+    <Folder Include="Features\Medicines\Queries\GetMedicinesList\" />
+    <Folder Include="Features\Medicines\Queries\GetMedicineDetail\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MedicineCabinet.Domain\MedicineCabinet.Domain.csproj" />

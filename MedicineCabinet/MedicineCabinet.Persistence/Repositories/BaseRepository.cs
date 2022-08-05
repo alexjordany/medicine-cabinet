@@ -5,7 +5,7 @@ namespace MedicineCabinet.Persistence.Repositories;
 
 public class BaseRepository<T> : IAsyncRepository<T> where T : class
 {
-    private readonly MedicineCabinetDbContext _dbContext;
+    protected readonly MedicineCabinetDbContext _dbContext;
 
     public BaseRepository(MedicineCabinetDbContext dbContext)
     {
