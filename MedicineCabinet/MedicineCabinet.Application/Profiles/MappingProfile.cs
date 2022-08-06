@@ -11,6 +11,7 @@ public class MappingProfile : Profile
     public MappingProfile()
     {
         CreateMap<Medicine, CreateMedicineDto>().ReverseMap();
+        CreateMap<Medicine, UpdateMedicineCommand>().ReverseMap();
         CreateMap<Medicine, UpdateMedicineDto>().ReverseMap();
         CreateMap<Medicine, MedicineDetailVM>().ReverseMap();
         CreateMap<Medicine, MedicineByNameVM>().ReverseMap();

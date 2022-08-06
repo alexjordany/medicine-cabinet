@@ -36,15 +36,9 @@ public class UpdateMedicineCommandHandler : IRequestHandler<UpdateMedicineComman
 
         if (updateMedicineCommandResponse.Success)
         {
-            var medicine = new Medicine()
-            {
-                MedicineId = medicineToUpdate.MedicineId,
-                MedicineName = medicineToUpdate.MedicineName,
-                Quantity = medicineToUpdate.Quantity,
-                LastModifiedDate = DateTime.Now
-            };
+            var medicine = _mapper.Map(request, medicineToUpdate, typeof(UpdateMedicineCommand), typeof(Medicine));
 
-            await _medicineRepository.UpdateAsync(medicine);
+            await _medicineRepository.UpdateAsync(medicineToUpdate);
             updateMedicineCommandResponse.Medicine = _mapper.Map<UpdateMedicineDto>(medicine);
         }
 

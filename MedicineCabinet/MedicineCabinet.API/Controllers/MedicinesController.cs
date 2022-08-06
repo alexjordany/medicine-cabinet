@@ -19,14 +19,14 @@ public class MedicinesController : ControllerBase
         _mediator = mediator;
     }
 
-    [HttpPost(Name = "CreateMedicine")]
+    [HttpPost("CreateMedicine",Name = "CreateMedicine")]
     public async Task<ActionResult<CreateMedicineCommandResponse>> Create([FromBody] CreateMedicineCommand createMedicineCommand)
     {
         var response = await _mediator.Send(createMedicineCommand);
         return Ok(response);
     }
 
-    [HttpPut(Name = "UpdateMedicine")]
+    [HttpPut("UpdateMedicine",Name = "UpdateMedicine")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -52,7 +52,7 @@ public class MedicinesController : ControllerBase
         return Ok(await _mediator.Send(getMedicineDetailQuery));
     }
 
-    [HttpGet("{name}", Name = "GetMedicinesByName")]
+    [HttpGet("GetByName/{name}", Name = "GetMedicinesByName")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     public async Task<ActionResult<List<MedicineByNameVM>>> GetMedicinesByName(string name)
     {

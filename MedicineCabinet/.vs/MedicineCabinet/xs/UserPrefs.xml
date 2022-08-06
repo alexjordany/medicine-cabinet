@@ -1,20 +1,34 @@
 ﻿<Properties StartupConfiguration="{FA1F16D4-A8DC-4A5A-8176-DEB3291E3F3E}|Default">
-  <MonoDevelop.Ide.ItemProperties.API.MedicineCabinet.API PreferredExecutionTarget="/Applications/Safari.app" FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MedicineCabinet.API/MedicineCabinet.API.csproj">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MedicineCabinet.Application/Profiles/MappingProfile.cs">
     <Files>
-      <File FileName="MedicineCabinet.API/appsettings.json" Line="1" Column="1" />
-      <File FileName="MedicineCabinet.API/Program.cs" Line="6" Column="1" />
-      <File FileName="MedicineCabinet.API/MedicineCabinet.API.csproj" Line="1" Column="1" />
+      <File FileName="MedicineCabinet.API/Controllers/MedicinesController.cs" Line="1" Column="1" />
+      <File FileName="MedicineCabinet.Application/Features/Medicines/Commands/UpdateMedicine/UpdateMedicineCommandHandler.cs" Line="42" Column="90" />
+      <File FileName="MedicineCabinet.Application/Profiles/MappingProfile.cs" Line="14" Column="67" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MedicineCabinet" expanded="True">
             <Node name="API" expanded="True">
-              <Node name="MedicineCabinet.API" expanded="True" />
+              <Node name="MedicineCabinet.API" expanded="True">
+                <Node name="Controllers" expanded="True" />
+              </Node>
             </Node>
             <Node name="Core" expanded="True">
-              <Node name="MedicineCabinet.Application" expanded="True" />
+              <Node name="MedicineCabinet.Application" expanded="True">
+                <Node name="Features" expanded="True">
+                  <Node name="Medicines" expanded="True">
+                    <Node name="Commands" expanded="True">
+                      <Node name="UpdateMedicine" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+                <Node name="Profiles" expanded="True" />
+              </Node>
             </Node>
             <Node name="Persistence" expanded="True">
               <Node name="MedicineCabinet.Persistence" expanded="True" />
@@ -27,10 +41,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.API.MedicineCabinet.API PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
 </Properties>
