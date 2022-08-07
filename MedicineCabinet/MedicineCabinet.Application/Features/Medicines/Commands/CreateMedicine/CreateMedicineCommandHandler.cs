@@ -36,6 +36,7 @@ public class CreateMedicineCommandHandler : IRequestHandler<CreateMedicineComman
                 MedicineName = request.MedicineName,
                 Quantity = request.Quantity,
                 Active = true,
+                Expiration = request.Expiration,
                 CreatedDate = DateTime.Now
             };
 
