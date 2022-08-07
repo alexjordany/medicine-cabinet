@@ -13,6 +13,10 @@ builder.Services.AddPersistenceServices(configuration);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("Open", builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+});
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo
@@ -21,7 +25,6 @@ builder.Services.AddSwaggerGen(c =>
         Title = "Medicine Cabinet API",
     });
 });
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -1,17 +1,17 @@
 ﻿<Properties StartupConfiguration="{FA1F16D4-A8DC-4A5A-8176-DEB3291E3F3E}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.ItemProperties.API.MedicineCabinet.API PreferredExecutionTarget="/Applications/Safari.app" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MedicineCabinet.Domain/Entities/Medicine.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MedicineCabinet.API/Program.cs">
     <Files>
       <File FileName="MedicineCabinet.API/Controllers/MedicinesController.cs" Line="13" Column="40" />
       <File FileName="MedicineCabinet.Application/Features/Medicines/Commands/UpdateMedicine/UpdateMedicineCommandHandler.cs" Line="42" Column="90" />
       <File FileName="MedicineCabinet.Application/Profiles/MappingProfile.cs" Line="14" Column="67" />
-      <File FileName="MedicineCabinet.API/Program.cs" Line="1" Column="1" />
+      <File FileName="MedicineCabinet.API/Program.cs" Line="19" Column="4" />
       <File FileName="MedicineCabinet.Domain/Entities/Medicine.cs" Line="10" Column="45" />
       <File FileName="MedicineCabinet.Domain/Shared/AuditableEntity.cs" Line="1" Column="1" />
       <File FileName="MedicineCabinet.Persistence/Repositories/BaseRepository.cs" Line="1" Column="1" />
@@ -44,28 +44,14 @@
               </Node>
             </Node>
             <Node name="Core" expanded="True">
-              <Node name="MedicineCabinet.Application" expanded="True">
-                <Node name="Features" expanded="True">
-                  <Node name="Medicines" expanded="True">
-                    <Node name="Queries" expanded="True">
-                      <Node name="GetMedicineDetail" expanded="True" />
-                      <Node name="GetMedicinesByName" expanded="True" />
-                      <Node name="GetMedicinesList" expanded="True" />
-                    </Node>
-                  </Node>
-                </Node>
-              </Node>
+              <Node name="MedicineCabinet.Application" expanded="True" />
               <Node name="MedicineCabinet.Domain" expanded="True">
-                <Node name="Entities" expanded="True">
-                  <Node name="Medicine.cs" selected="True" />
-                </Node>
+                <Node name="Entities" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
             </Node>
             <Node name="Persistence" expanded="True">
-              <Node name="MedicineCabinet.Persistence" expanded="True">
-                <Node name="Repositories" expanded="True" />
-              </Node>
+              <Node name="MedicineCabinet.Persistence" expanded="True" />
             </Node>
           </Node>
         </State>
