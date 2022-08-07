@@ -1,0 +1,12 @@
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Domain/bin/Release/net6.0/MedicineCabinet.Domain.deps.json
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Domain/bin/Release/net6.0/MedicineCabinet.Domain.dll
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Domain/bin/Release/net6.0/MedicineCabinet.Domain.pdb
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Domain/obj/Release/net6.0/MedicineCabinet.Domain.csproj.AssemblyReference.cache
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Domain/obj/Release/net6.0/MedicineCabinet.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Domain/obj/Release/net6.0/MedicineCabinet.Domain.AssemblyInfoInputs.cache
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Domain/obj/Release/net6.0/MedicineCabinet.Domain.AssemblyInfo.cs
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Domain/obj/Release/net6.0/MedicineCabinet.Domain.csproj.CoreCompileInputs.cache
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Domain/obj/Release/net6.0/MedicineCabinet.Domain.dll
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Domain/obj/Release/net6.0/refint/MedicineCabinet.Domain.dll
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Domain/obj/Release/net6.0/MedicineCabinet.Domain.pdb
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Domain/obj/Release/net6.0/ref/MedicineCabinet.Domain.dll

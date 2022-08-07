@@ -37,7 +37,8 @@ public class CreateMedicineCommandHandler : IRequestHandler<CreateMedicineComman
                 Quantity = request.Quantity,
                 Active = true,
                 Expiration = request.Expiration,
-                CreatedDate = DateTime.Now
+                CreatedDate = DateTime.Now,
+                Description = request.Description
             };
 
             medicine = await _medicineRepository.AddAsync(medicine);

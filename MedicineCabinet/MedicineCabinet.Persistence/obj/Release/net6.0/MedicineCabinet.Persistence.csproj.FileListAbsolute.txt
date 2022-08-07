@@ -1,0 +1,17 @@
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Persistence/bin/Release/net6.0/MedicineCabinet.Persistence.deps.json
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Persistence/bin/Release/net6.0/MedicineCabinet.Persistence.dll
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Persistence/bin/Release/net6.0/MedicineCabinet.Persistence.pdb
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Persistence/bin/Release/net6.0/MedicineCabinet.Application.dll
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Persistence/bin/Release/net6.0/MedicineCabinet.Domain.dll
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Persistence/bin/Release/net6.0/MedicineCabinet.Domain.pdb
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Persistence/bin/Release/net6.0/MedicineCabinet.Application.pdb
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Persistence/obj/Release/net6.0/MedicineCabinet.Persistence.csproj.AssemblyReference.cache
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Persistence/obj/Release/net6.0/MedicineCabinet.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Persistence/obj/Release/net6.0/MedicineCabinet.Persistence.AssemblyInfoInputs.cache
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Persistence/obj/Release/net6.0/MedicineCabinet.Persistence.AssemblyInfo.cs
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Persistence/obj/Release/net6.0/MedicineCabinet.Persistence.csproj.CoreCompileInputs.cache
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Persistence/obj/Release/net6.0/MedicineCabinet.Persistence.csproj.CopyComplete
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Persistence/obj/Release/net6.0/MedicineCabinet.Persistence.dll
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Persistence/obj/Release/net6.0/refint/MedicineCabinet.Persistence.dll
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Persistence/obj/Release/net6.0/MedicineCabinet.Persistence.pdb
+/Users/alexparrales/Projects/medicine-cabinet/MedicineCabinet/MedicineCabinet.Persistence/obj/Release/net6.0/ref/MedicineCabinet.Persistence.dll
