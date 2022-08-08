@@ -35,6 +35,7 @@
     <None Remove="Features\Medicines\Queries\GetMedicinesByName\" />
     <None Remove="Features\Medicines\Queries\GetMedicinesList\" />
     <None Remove="Features\Medicines\Queries\GetMedicineDetail\" />
+    <None Remove="Features\Medicines\Commands\DeleteMedicine\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Contracts\" />
@@ -51,6 +52,7 @@
     <Folder Include="Features\Medicines\Queries\GetMedicinesByName\" />
     <Folder Include="Features\Medicines\Queries\GetMedicinesList\" />
     <Folder Include="Features\Medicines\Queries\GetMedicineDetail\" />
+    <Folder Include="Features\Medicines\Commands\DeleteMedicine\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MedicineCabinet.Domain\MedicineCabinet.Domain.csproj" />
