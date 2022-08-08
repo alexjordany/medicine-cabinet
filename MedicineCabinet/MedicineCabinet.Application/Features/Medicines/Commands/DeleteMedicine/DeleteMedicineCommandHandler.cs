@@ -1,11 +1,20 @@
-﻿using System;
-namespace MedicineCabinet.Application.Features.Medicines.Commands.DeleteMedicine
+﻿namespace MedicineCabinet.Application.Features.Medicines.Commands.DeleteMedicine;
+
+public class DeleteMedicineCommandHandler : IRequestHandler<DeleteMedicineCommand>
 {
-    public class DeleteMedicineCommandHandler
+    private readonly IAsyncRepository<Medicine> _medicineRepository;
+
+    public DeleteMedicineCommandHandler(IAsyncRepository<Medicine> medicineRepository)
     {
-        public DeleteMedicineCommandHandler()
-        {
-        }
+        _medicineRepository = medicineRepository;
+    }
+
+    public async Task<Unit> Handle(DeleteMedicineCommand request, CancellationToken cancellationToken)
+    {
+        var medicineToDelete = await _medicineRepository.GetByIdAsync(request.MedicineId);
+
+        await _medicineRepository.DeleteAsync(medicineToDelete);
+        return Unit.Value;
     }
 }
 

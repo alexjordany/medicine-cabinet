@@ -1,11 +1,7 @@
-﻿using System;
-namespace MedicineCabinet.Application.Features.Medicines.Commands.DeleteMedicine
+﻿namespace MedicineCabinet.Application.Features.Medicines.Commands.DeleteMedicine;
+
+public class DeleteMedicineCommand : IRequest
 {
-    public class DeleteMedicineCommand
-    {
-        public DeleteMedicineCommand()
-        {
-        }
-    }
+    public int MedicineId { get; set; }
 }
 

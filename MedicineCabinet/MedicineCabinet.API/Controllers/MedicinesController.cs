@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using MedicineCabinet.Application.Features.Medicines.Commands.CreateMedicine;
+using MedicineCabinet.Application.Features.Medicines.Commands.DeleteMedicine;
 using MedicineCabinet.Application.Features.Medicines.Commands.UpdateMedicine;
 using MedicineCabinet.Application.Features.Medicines.Queries.GetMedicineDetail;
 using MedicineCabinet.Application.Features.Medicines.Queries.GetMedicinesByName;
@@ -19,14 +20,14 @@ public class MedicinesController : ControllerBase
         _mediator = mediator;
     }
 
-    [HttpPost("CreateMedicine",Name = "CreateMedicine")]
+    [HttpPost(Name = "CreateMedicine")]
     public async Task<ActionResult<CreateMedicineCommandResponse>> Create([FromBody] CreateMedicineCommand createMedicineCommand)
     {
         var response = await _mediator.Send(createMedicineCommand);
         return Ok(response);
     }
 
-    [HttpPut("UpdateMedicine",Name = "UpdateMedicine")]
+    [HttpPut(Name = "UpdateMedicine")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -35,6 +36,17 @@ public class MedicinesController : ControllerBase
     {
         var dtos = await _mediator.Send(updateMedicineCommand);
         return Ok(dtos);
+    }
+
+    [HttpDelete("{id}", Name = "DeleteMedicine")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesDefaultResponseType]
+    public async Task<ActionResult> Delete(int id)
+    {
+        var deleteMedicineCommand = new DeleteMedicineCommand() { MedicineId = id };
+        await _mediator.Send(deleteMedicineCommand);
+        return NoContent();
     }
 
     [HttpGet("all", Name = "GetAllMedicines")]
