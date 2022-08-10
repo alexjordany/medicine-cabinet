@@ -20,7 +20,7 @@ public class MedicineCabinetDbContext: DbContext
                 MedicineName = "Paracetamol",
                 Active = true,
                 MedicineQuantity = 20,
-                MedicineExpiration = DateTime.Now.AddMonths(2),
+                MedicineExpiration = new DateTime(2022, 09, 30, 00, 00, 00),
                 CreatedDate = DateTime.Now,
                 MedicineDescription= "paracetamol pills"},
 
@@ -30,7 +30,7 @@ public class MedicineCabinetDbContext: DbContext
                 MedicineName = "Cardioaspirina",
                 Active = true,
                 MedicineQuantity = 60,
-                MedicineExpiration = DateTime.Now.AddMonths(5),
+                MedicineExpiration = new DateTime(2022, 10, 21, 00, 00, 00),
                 CreatedDate = DateTime.Now,
                 MedicineDescription = "Cardioaspirina 86"
             },
@@ -41,7 +41,7 @@ public class MedicineCabinetDbContext: DbContext
                 MedicineName = "Carvedilol",
                 Active = true,
                 MedicineQuantity = 68,
-                MedicineExpiration = DateTime.Now.AddMonths(7),
+                MedicineExpiration = new DateTime(2023, 08, 2, 00, 00, 00),
                 CreatedDate = DateTime.Now,
                 MedicineDescription = "Carvedilol 6.25"
             },
@@ -52,7 +52,7 @@ public class MedicineCabinetDbContext: DbContext
                 MedicineName = "Espaven",
                 Active = true,
                 MedicineQuantity = 15,
-                MedicineExpiration = DateTime.Now.AddMonths(1),
+                MedicineExpiration = new DateTime(2022, 09, 21, 00, 00, 00),
                 CreatedDate = DateTime.Now,
                 MedicineDescription = "Espaven azul"
             },
@@ -63,11 +63,10 @@ public class MedicineCabinetDbContext: DbContext
                 MedicineName = "Multiflora",
                 Active = true,
                 MedicineQuantity = 15,
-                MedicineExpiration = DateTime.Now.AddMonths(16),
+                MedicineExpiration = new DateTime(2025,12,21,00,00,00),
                 CreatedDate = DateTime.Now,
                 MedicineDescription = "Multiflora plus"
             }
         );
     }
 }
-
