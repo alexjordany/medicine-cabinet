@@ -1,60 +1,84 @@
 ﻿<Properties StartupConfiguration="{FA1F16D4-A8DC-4A5A-8176-DEB3291E3F3E}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.API.MedicineCabinet.API PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MedicineCabinet.Application/Features/Medicines/Queries/GetMedicinesByName/MedicineByNameVM.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MedicineCabinet.Domain/Entities/Medicine.cs">
     <Files>
-      <File FileName="MedicineCabinet.API/Controllers/MedicinesController.cs" Line="13" Column="40" />
-      <File FileName="MedicineCabinet.Application/Features/Medicines/Commands/UpdateMedicine/UpdateMedicineCommandHandler.cs" Line="42" Column="90" />
+      <File FileName="MedicineCabinet.API/Controllers/MedicinesController.cs" Line="28" Column="6" />
+      <File FileName="MedicineCabinet.Application/Features/Medicines/Commands/UpdateMedicine/UpdateMedicineCommandHandler.cs" Line="40" Column="116" />
       <File FileName="MedicineCabinet.Application/Profiles/MappingProfile.cs" Line="14" Column="67" />
-      <File FileName="MedicineCabinet.API/Program.cs" Line="19" Column="4" />
-      <File FileName="MedicineCabinet.Domain/Entities/Medicine.cs" Line="11" Column="5" />
-      <File FileName="MedicineCabinet.Domain/Shared/AuditableEntity.cs" Line="1" Column="1" />
+      <File FileName="MedicineCabinet.API/Program.cs" Line="13" Column="56" />
+      <File FileName="MedicineCabinet.Domain/Entities/Medicine.cs" Line="10" Column="20" />
+      <File FileName="MedicineCabinet.Domain/Shared/AuditableEntity.cs" Line="6" Column="37" />
       <File FileName="MedicineCabinet.Persistence/Repositories/BaseRepository.cs" Line="1" Column="1" />
       <File FileName="MedicineCabinet.Persistence/Repositories/MedicineRepository.cs" Line="1" Column="1" />
-      <File FileName="MedicineCabinet.Persistence/MedicineCabinetDbContext.cs" Line="1" Column="1" />
+      <File FileName="MedicineCabinet.Persistence/MedicineCabinetDbContext.cs" Line="66" Column="56" />
       <File FileName="MedicineCabinet.Persistence/PersistenceServiceRegistration.cs" Line="1" Column="1" />
-      <File FileName="MedicineCabinet.Application/Features/Medicines/Commands/CreateMedicine/CreateMedicineCommand.cs" Line="8" Column="45" />
-      <File FileName="MedicineCabinet.Application/Features/Medicines/Commands/CreateMedicine/CreateMedicineCommandValidator.cs" Line="12" Column="9" />
+      <File FileName="MedicineCabinet.Application/Features/Medicines/Commands/CreateMedicine/CreateMedicineCommand.cs" Line="7" Column="20" />
+      <File FileName="MedicineCabinet.Application/Features/Medicines/Commands/CreateMedicine/CreateMedicineCommandValidator.cs" Line="11" Column="9" />
       <File FileName="MedicineCabinet.Application/Features/Medicines/Commands/CreateMedicine/CreateMedicineCommandHandler.cs" Line="41" Column="50" />
       <File FileName="MedicineCabinet.Application/Features/Medicines/Commands/CreateMedicine/CreateMedicineDto.cs" Line="3" Column="74" />
       <File FileName="MedicineCabinet.Application/Features/Medicines/Commands/CreateMedicine/CreateMedicineCommandResponse.cs" Line="1" Column="1" />
       <File FileName="MedicineCabinet.Domain/MedicineCabinet.Domain.csproj" Line="1" Column="34" />
-      <File FileName="MedicineCabinet.Application/Features/Medicines/Commands/UpdateMedicine/UpdateMedicineCommand.cs" Line="12" Column="1" />
-      <File FileName="MedicineCabinet.Application/Features/Medicines/Commands/UpdateMedicine/UpdateMedicineDto.cs" Line="1" Column="1" />
-      <File FileName="MedicineCabinet.Application/Features/Medicines/Commands/UpdateMedicine/UpdateMedicineCommandValidator.cs" Line="10" Column="121" />
+      <File FileName="MedicineCabinet.Application/Features/Medicines/Commands/UpdateMedicine/UpdateMedicineCommand.cs" Line="8" Column="20" />
+      <File FileName="MedicineCabinet.Application/Features/Medicines/Commands/UpdateMedicine/UpdateMedicineDto.cs" Line="3" Column="75" />
+      <File FileName="MedicineCabinet.Application/Features/Medicines/Commands/UpdateMedicine/UpdateMedicineCommandValidator.cs" Line="9" Column="13" />
       <File FileName="MedicineCabinet.Application/Features/Medicines/Commands/UpdateMedicine/UpdateMedicineCommandResponse.cs" Line="1" Column="1" />
-      <File FileName="MedicineCabinet.Application/Features/Medicines/Queries/GetMedicineDetail/MedicineDetailVM.cs" Line="3" Column="117" />
-      <File FileName="MedicineCabinet.Application/Features/Medicines/Queries/GetMedicinesByName/MedicineByNameVM.cs" Line="3" Column="108" />
-      <File FileName="MedicineCabinet.Application/Features/Medicines/Queries/GetMedicinesList/MedicineListVM.cs" Line="3" Column="107" />
+      <File FileName="MedicineCabinet.Application/Features/Medicines/Queries/GetMedicineDetail/MedicineDetailVM.cs" Line="5" Column="1" />
+      <File FileName="MedicineCabinet.Application/Features/Medicines/Queries/GetMedicinesByName/MedicineByNameVM.cs" Line="3" Column="97" />
+      <File FileName="MedicineCabinet.Application/Features/Medicines/Queries/GetMedicinesList/MedicineListVM.cs" Line="3" Column="96" />
       <File FileName="MedicineCabinet.Application/Features/Medicines/Queries/GetMedicinesList/GetMedicinesListQuery.cs" Line="1" Column="1" />
       <File FileName="MedicineCabinet.Application/Features/Medicines/Queries/GetMedicinesList/GetMedicinesListQueryHandler.cs" Line="1" Column="1" />
       <File FileName="MedicineCabinet.Application/Features/Medicines/Queries/GetMedicineDetail/GetMedicineDetailQuery.cs" Line="1" Column="1" />
       <File FileName="MedicineCabinet.Application/Features/Medicines/Queries/GetMedicinesByName/GetMedicinesByNameQueryHandler.cs" Line="19" Column="2" />
+      <File FileName="MedicineCabinet.Application/Features/Medicines/Commands/DeleteMedicine/DeleteMedicineCommand.cs" Line="3" Column="38" />
+      <File FileName="MedicineCabinet.Application/Features/Medicines/Commands/DeleteMedicine/DeleteMedicineCommandHandler.cs" Line="19" Column="2" />
+      <File FileName="MedicineCabinet.API/Middleware/ExceptionHandlerMiddleware.cs" Line="3" Column="1" />
+      <File FileName="MedicineCabinet.Application/Exceptions/ValidationException.cs" Line="3" Column="14" />
+      <File FileName="MedicineCabinet.Application/Exceptions/BadRequestException.cs" Line="1" Column="1" />
+      <File FileName="MedicineCabinet.Application/Exceptions/NotFoundException.cs" Line="1" Column="1" />
+      <File FileName="MedicineCabinet.API/Middleware/MiddlewareExtensions.cs" Line="1" Column="1" />
+      <File FileName="MedicineCabinet.API/appsettings.json" Line="1" Column="1" />
+      <File FileName="MedicineCabinet.Application/Features/Medicines/Queries/GetMedicineDetail/GetMedicineDetailQueryHandler.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MedicineCabinet" expanded="True">
             <Node name="API" expanded="True">
-              <Node name="MedicineCabinet.API" expanded="True" />
+              <Node name="MedicineCabinet.API" expanded="True">
+                <Node name="Controllers" expanded="True" />
+                <Node name="Middleware" expanded="True" />
+                <Node name="Properties" expanded="True" />
+              </Node>
             </Node>
             <Node name="Core" expanded="True">
               <Node name="MedicineCabinet.Application" expanded="True">
+                <Node name="Exceptions" expanded="True" />
                 <Node name="Features" expanded="True">
                   <Node name="Medicines" expanded="True">
+                    <Node name="Commands" expanded="True">
+                      <Node name="CreateMedicine" expanded="True" />
+                      <Node name="DeleteMedicine" expanded="True" />
+                      <Node name="UpdateMedicine" expanded="True" />
+                    </Node>
                     <Node name="Queries" expanded="True">
+                      <Node name="GetMedicineDetail" expanded="True" />
                       <Node name="GetMedicinesByName" expanded="True" />
+                      <Node name="GetMedicinesList" expanded="True" />
                     </Node>
                   </Node>
                 </Node>
               </Node>
+              <Node name="MedicineCabinet.Domain" expanded="True">
+                <Node name="Entities" expanded="True">
+                  <Node name="Medicine.cs" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
             </Node>
-            <Node name="Persistence" expanded="True" />
+            <Node name="Persistence" expanded="True">
+              <Node name="MedicineCabinet.Persistence" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -63,4 +87,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
 </Properties>

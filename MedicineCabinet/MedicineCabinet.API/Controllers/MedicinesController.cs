@@ -27,7 +27,7 @@ public class MedicinesController : ControllerBase
         return Ok(response);
     }
 
-    [HttpPut(Name = "UpdateMedicine")]
+    [HttpPut("{id:int}", Name = "UpdateMedicine")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
