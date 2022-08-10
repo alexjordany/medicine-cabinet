@@ -19,20 +19,20 @@ public class MedicineCabinetDbContext: DbContext
                 MedicineId = 1,
                 MedicineName = "Paracetamol",
                 Active = true,
-                Quantity = 20,
-                Expiration = DateTime.Now.AddMonths(2),
+                MedicineQuantity = 20,
+                MedicineExpiration = DateTime.Now.AddMonths(2),
                 CreatedDate = DateTime.Now,
-                Description= "paracetamol pills"},
+                MedicineDescription= "paracetamol pills"},
 
             new Medicine
             {
                 MedicineId = 2,
                 MedicineName = "Cardioaspirina",
                 Active = true,
-                Quantity = 60,
-                Expiration = DateTime.Now.AddMonths(5),
+                MedicineQuantity = 60,
+                MedicineExpiration = DateTime.Now.AddMonths(5),
                 CreatedDate = DateTime.Now,
-                Description = "Cardioaspirina 86"
+                MedicineDescription = "Cardioaspirina 86"
             },
 
             new Medicine
@@ -40,10 +40,10 @@ public class MedicineCabinetDbContext: DbContext
                 MedicineId = 3,
                 MedicineName = "Carvedilol",
                 Active = true,
-                Quantity = 68,
-                Expiration = DateTime.Now.AddMonths(7),
+                MedicineQuantity = 68,
+                MedicineExpiration = DateTime.Now.AddMonths(7),
                 CreatedDate = DateTime.Now,
-                Description = "Carvedilol 6.25"
+                MedicineDescription = "Carvedilol 6.25"
             },
 
             new Medicine
@@ -51,10 +51,10 @@ public class MedicineCabinetDbContext: DbContext
                 MedicineId = 4,
                 MedicineName = "Espaven",
                 Active = true,
-                Quantity = 15,
-                Expiration = DateTime.Now.AddMonths(1),
+                MedicineQuantity = 15,
+                MedicineExpiration = DateTime.Now.AddMonths(1),
                 CreatedDate = DateTime.Now,
-                Description = "Espaven azul"
+                MedicineDescription = "Espaven azul"
             },
 
             new Medicine
@@ -62,10 +62,10 @@ public class MedicineCabinetDbContext: DbContext
                 MedicineId = 5,
                 MedicineName = "Multiflora",
                 Active = true,
-                Quantity = 15,
-                Expiration = DateTime.Now.AddMonths(16),
+                MedicineQuantity = 15,
+                MedicineExpiration = DateTime.Now.AddMonths(16),
                 CreatedDate = DateTime.Now,
-                Description = "Multiflora plus"
+                MedicineDescription = "Multiflora plus"
             }
         );
     }

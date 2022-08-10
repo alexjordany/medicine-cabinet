@@ -34,11 +34,11 @@ public class CreateMedicineCommandHandler : IRequestHandler<CreateMedicineComman
             var medicine = new Medicine()
             {
                 MedicineName = request.MedicineName,
-                Quantity = request.Quantity,
+                MedicineQuantity = request.MedicineQuantity,
                 Active = true,
-                Expiration = request.Expiration,
+                MedicineExpiration = request.MedicineExpiration,
                 CreatedDate = DateTime.Now,
-                Description = request.Description
+                MedicineDescription = request.MedicineDescription
             };
 
             medicine = await _medicineRepository.AddAsync(medicine);

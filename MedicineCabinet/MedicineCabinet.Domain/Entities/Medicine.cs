@@ -6,8 +6,8 @@ public class Medicine : AuditableEntity
 {
     public int MedicineId { get; set; }
     public string MedicineName { get; set; } = string.Empty;
-    public int? Quantity { get; set; }
-    public DateTime Expiration { get; set; }
-    public string? Description { get; set; }
+    public int? MedicineQuantity { get; set; }
+    public DateTime MedicineExpiration { get; set; }
+    public string? MedicineDescription { get; set; }
 }
 
